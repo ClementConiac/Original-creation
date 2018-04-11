@@ -113,7 +113,7 @@ if(isset($_POST['update'])){
                     </div>
                     <div class="form-group col-sm-8 offset-sm-2">
                         <label for="adress">Adress </label>
-                        <input class="form-control" value="<?php echo $user['lastname']?>" name="adress" id="adress" placeholder="Your adress"<?php echo $user['adress']?> />
+                        <input class="form-control" value="<?php echo $user['adress']?>" name="adress" id="adress" placeholder="Your adress"<?php echo $user['adress']?> />
                     </div>
                     <div class="text-right col-sm-8 offset-sm-2">
                         <p class="text-danger">* champs requis</p>
